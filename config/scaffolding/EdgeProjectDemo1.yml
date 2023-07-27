@@ -10,3 +10,105 @@ services:
   packages:
   - name: EdgeProjectDemo1
     version: "1.0"
+  configurations:
+  - name: edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1
+    properties:
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.heartBeatInterval
+      value: "0"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.portNumber
+      value: "1521"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.otherProperties
+      value: driverType=thin;
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.blockingTimeout
+      value: "1000"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.expireTimeout
+      value: "1000"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.minimumPoolSize
+      value: "0"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.user
+      value: JDBC_BVT
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.password
+      value: "{AES}gOk3wygfWVjWqDc4SLehnQ=="
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.poolIncrementSize
+      value: "1"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.startupRetryCount
+      value: "0"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.driverType
+      value: Progress® DataDirect®
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.dbType
+      value: ORACLE
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.datasourceClass
+      value: com.wm.dd.jdbcx.oracle.OracleDataSource
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.networkProtocol
+      value: tcp
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionEnabled
+      value: "true"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.poolable
+      value: "false"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.startupBackoffSecs
+      value: "10"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.transactionType
+      value: LOCAL_TRANSACTION
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.trustStore
+      value: ""
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.databaseName
+      value: ORCL
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.serverName
+      value: adapter-oracle-121-on-amazonrds.cdmjexwbzoym.us-east-1.rds.amazonaws.com
+- serviceName: edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:test1
+  packages:
+  - name: EdgeProjectDemo1
+    version: "1.0"
+  configurations:
+  - name: edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1
+    properties:
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.heartBeatInterval
+      value: "0"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.portNumber
+      value: "1521"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.otherProperties
+      value: driverType=thin;
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.blockingTimeout
+      value: "1000"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.expireTimeout
+      value: "1000"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.minimumPoolSize
+      value: "0"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.user
+      value: JDBC_BVT
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.password
+      value: "{AES}gOk3wygfWVjWqDc4SLehnQ=="
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.poolIncrementSize
+      value: "1"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.startupRetryCount
+      value: "0"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.driverType
+      value: Progress® DataDirect®
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.dbType
+      value: ORACLE
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.datasourceClass
+      value: com.wm.dd.jdbcx.oracle.OracleDataSource
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.networkProtocol
+      value: tcp
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionEnabled
+      value: "true"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.poolable
+      value: "false"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionManagerSettings.startupBackoffSecs
+      value: "10"
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.transactionType
+      value: LOCAL_TRANSACTION
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.trustStore
+      value: ""
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.databaseName
+      value: ORCL
+    - name: artConnection.EdgeProjectDemo1.edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.testacct1.connectionSettings.serverName
+      value: adapter-oracle-121-on-amazonrds.cdmjexwbzoym.us-east-1.rds.amazonaws.com
