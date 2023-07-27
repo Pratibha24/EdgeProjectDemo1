@@ -1,0 +1,8 @@
+version: "1.0"
+info:
+  model: int-scaffold
+services:
+- serviceName: edge.projectdemo1.integrations:test
+  packages:
+  - name: EdgeProjectDemo1
+    version: "1.0"
