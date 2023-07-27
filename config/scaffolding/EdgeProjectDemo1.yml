@@ -6,3 +6,7 @@ services:
   packages:
   - name: EdgeProjectDemo1
     version: "1.0"
+- serviceName: edge.projectdemo1.integrations:testdb
+  packages:
+  - name: EdgeProjectDemo1
+    version: "1.0"
