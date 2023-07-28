@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="edge.projectdemo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:test1" VALIDATE-IN="" VALIDATE-OUT="">
   <COMMENT></COMMENT>
-</SEQUENCE>
+</INVOKE>
 </FLOW>

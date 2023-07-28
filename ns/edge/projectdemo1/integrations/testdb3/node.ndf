@@ -44,9 +44,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">santhoshk</value>
-    <value name="createdDate">1690517740420</value>
-    <value name="lastModifiedDate">1690517740420</value>
+    <value name="lastModifiedBy">santhoshk</value>
+    <value name="lastModifiedDate">1690517752291</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">f77e83ed8a8c4068a8e26b3e3286e441</value>
       <null name="group"/>
@@ -55,8 +54,47 @@
     <value name="displayName">testdb3</value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <value name="itemType">APPS</value>
+        <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
+        <value name="name">Database</value>
+        <value name="providerName">WmJDBCAdapter</value>
+        <record name="operation" javaclass="com.wm.util.Values">
+          <value name="operationName">test1</value>
+          <null name="description"/>
+          <value name="isCustom">true</value>
+          <value name="operationType">actions</value>
+          <value name="projectName">edge.projectdemo1</value>
+        </record>
+        <value name="appType">predefined</value>
+        <Boolean name="hasAccount">true</Boolean>
+        <value name="description">Database Application enables you to perform database operation with cloud databases.</value>
+        <value name="type">Adapters</value>
+        <value name="allowDeleteApplication">false</value>
+        <value name="allowUpdateApplication">false</value>
+        <value name="packageName">WmJDBCAdapter</value>
+        <null name="certified"/>
+        <value name="version">1.0</value>
+        <Boolean name="allowCustomOperations">true</Boolean>
+        <Boolean name="deprecated">false</Boolean>
+        <null name="icon"/>
+        <Boolean name="listenerEnabled">false</Boolean>
+        <number name="sourceType" type="Long">1</number>
+        <Boolean name="connectionRequired">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="inputMap" type="object" depth="1">
+        </array>
+        <array name="outputMap" type="object" depth="1">
+        </array>
       </record>
     </record>
   </record>
